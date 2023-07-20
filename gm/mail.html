@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../gm/styles/main.css">
+    <link rel="icon" type="image/x-icon" href="../gm/images/favicon.png">
+    <title>Gmail</title>
+</head>
+<body>
+    <div id="left-sidebar">
+        <button id="toggle-mailbox-button" class="hamburger-button">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        <a href="#" class="left-sidebar-a">
+            <img src="../gm/images/mail.png" alt="Image 1">
+            <span class="image-caption">Mail</span>
+        </a>
+    
+        <a href="#" class="left-sidebar-a">
+            <img src="../gm/images/chat.png" alt="Image 2">
+            <span class="image-caption">Chat</span>
+        </a>
+    
+        <a href="#" class="left-sidebar-a">
+            <img src="../gm/images/spaces.png" alt="Image 3">
+            <span class="image-caption">Spaces</span>
+        </a>
+    
+        <a href="#" class="left-sidebar-a">
+            <img src="../gm/images/meet.png" alt="Image 4">
+            <span class="image-caption">Meet</span>
+        </a>
+
+    </div>
+    <div id="mail-body-container">
+
+        <div id="top-bar">
+            <div id="logo-container">
+                <a href="../gm/" id="logo">
+                    <img src="../gm/images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div id="searchbar">
+                <input type="text" id="search-input" placeholder="Search in mail">
+            </div>            
+
+        </div>
+        <div id="mail-body-inner-container-1">
+            <div id="mailbox-listing">
+
+            </div>
+            <div id="email-window">
+                <div id="email-topbar">
+                    <div class="checkbox">
+                      <input type="checkbox" id="master-checkbox">
+                      <label for="master-checkbox"></label>
+                    </div>
+                </div>
+                  
+                <div id="emails">
+
+                </div>
+            </div>
+            <div id="right-sidebar">
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="../gm/script/mail.js" defer></script>
+
+    
+</body>
+</html>
